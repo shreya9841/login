@@ -1,0 +1,118 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    /*background-color: rgb(109, 83, 133);*/
+}
+body{
+    background-color: rgb(57, 19, 126);
+    
+    /*background-image: url(blob-scene-haikei.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;*/
+}
+.box{
+    height: 455px;
+    width: 350px;
+    background-color: rgb(12, 12, 43);
+    
+    margin-top: 70px;
+    margin-left: 35%;
+    display: flex;
+    justify-content:center;
+    border-radius: 10px;
+    color: aliceblue;
+    box-shadow: 20px 20px 8px rgb(33, 6, 65);
+    
+    
+}
+.login{
+    display:block;
+    align-items: center;
+    justify-content: center;
+    margin: 2%;
+    
+}
+.username input{
+    /*height: 1.5rem;
+    width: 15rem;*/
+    padding: 7px 20px ;
+    border-radius: 5px;
+    border-style: none;
+    margin-bottom: 19px;
+}
+.password input{
+    /*height: 1.5rem;
+    width: 15rem;*/
+    padding: 7px 20px ;
+    border-radius: 5px;
+    border-style: none;
+    margin-bottom: 12px;
+}
+.p1 a{
+    padding:15px 0px 0px 87px;
+
+}
+.pOr{
+    padding:5px 0px 0px 4px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 20px 0;
+    font-size: 14px;
+    color: #888;
+}
+
+.pOr::before, .pOr::after {
+    content: '';
+    flex: 1;
+    border-bottom: 1px solid #ccc;
+}
+
+.pOr::before {
+    margin-right: 10px;
+}
+
+.pOr::after {
+    margin-left: 10px;
+}
+
+
+
+.btn{
+    padding:7px 30px 7px 30px;
+    border-radius: 5px;
+    border-style: none;
+    font-weight: bold;
+    font-size: 17px;
+    margin-top: 25px;
+    align-items: center;
+    margin-left: 39px;
+}
+.btn:hover{
+    background-color: rgb(126, 108, 126);
+    cursor: pointer;
+}
+
+.fb{
+    height: 44px;
+    padding-left:70px ;
+    padding-bottom: 17px;
+}
+
+.google{
+    height: 70px;
+    padding:4px;
+
+}
+.p2{
+    padding-top: 15px;
+}
+h1{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding-bottom: 20px;
+
+}
